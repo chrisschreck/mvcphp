@@ -10,5 +10,5 @@ Please adjust the parameters in the config folder.
 
 ## Acknowledgements
 
- - [PHP Documentation]((https://www.php.net))
- - [Gettimg Started with PHP]((https://www.php-einfach.de))
+ - [PHP Documentation](https://www.php.net)
+ - [Gettimg Started with PHP](https://www.php-einfach.de)

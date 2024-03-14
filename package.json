@@ -1,0 +1,32 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://schreckc@aws1.xmedias-develop.de/var/gitrepos/thalia-backend.git",
+  "author": "Chris Schreck <cschreck@xmedias.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "@shopify/draggable": "^1.0.0-beta.8",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "foundation-sites": "^6.6.1",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^1.1.3",
+    "webpack-cli": "^3.3.10",
+    "what-input": "^5.2.6"
+  }
+}

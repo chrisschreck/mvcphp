@@ -1,0 +1,14 @@
+### URL rewriting
+<IfModule mod_rewrite.c>
+
+# Enable URL rewriting
+RewriteEngine On
+RewriteBase /
+
+# Rewrite urls pointing to non-existing files/dirs/symlinks to index.php
+RewriteCond         %{REQUEST_FILENAME}             !-f
+RewriteCond         %{REQUEST_FILENAME}             !-d
+RewriteCond         %{REQUEST_FILENAME}             !-l
+RewriteRule         .*                              index.php                                   [L]
+RewriteRule 		/admin(.*)			 			/admin/index.php							[L]
+</IfModule>

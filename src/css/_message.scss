@@ -1,0 +1,46 @@
+/* MESSAGES */
+.message-container{
+    animation-name: fadeout;
+    animation-duration: 0.2s;
+    animation-delay: 4s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+    .message{
+        padding: 13px 20px;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        margin: 0;
+        display: inline-block;
+        &.error{ background-color:$error-red; }
+        &.success{ background-color:$success-green; }
+    }
+}
+.screen-status{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+
+    &.online{
+        background-color: $success-green;
+        &:after{
+            content: 'online';
+            margin-left: 15px;
+            font-size: 12px;
+        }
+    }
+    &.offline{
+        background-color: $error-red;
+        &:after{
+            content: 'offline';
+            margin-left: 15px;
+            font-size: 12px;
+        }
+    }
+
+}
+@keyframes fadeout {
+    from {opacity:1;height:71px;}
+    to {opacity:0;height:0;}
+}

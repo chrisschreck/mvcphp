@@ -1,0 +1,67 @@
+.button{
+    background-color: $button-bg;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    &:hover{
+        background-color:#5898C0;
+    }
+    &.maxwidth{
+        max-width: 360px;
+    }
+}
+.submit-button {
+    width: 100%;
+    background: $dark-blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    max-width: 370px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    a {
+        color: white;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+
+// .button50 {
+//     background: $dark-blue;
+//     padding: 10px;
+//     border: 1px solid white;
+//     font-size: 17px;
+//     margin: 15px 0px 15px 15px;
+//     outline: none;
+//     width: 50%;    
+//     border-radius: 5px;
+//     font-weight: bold;
+// }
+
+// .button100 {
+//     background: $dark-blue;
+//     padding: 10px;
+//     border: 1px solid white;
+//     font-size: 17px;
+//     margin: 15px 0px 15px 15px;
+//     outline: none;
+//     width: 100%;
+//     border-radius: 5px;
+//     font-weight: bold;
+// }
+
+// a .button100 ,
+// a .button50  {
+//     color: white;
+//     outline: none;
+//     cursor: pointer;
+//     border-radius: 5px;
+//     font-weight: bold;
+// }

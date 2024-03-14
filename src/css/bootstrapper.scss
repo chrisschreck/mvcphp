@@ -1,0 +1,14 @@
+
+$error-red: #dc3c3c;
+$success-green: #067b4b;
+$dark-blue: #183e66;
+$button-bg:#586777;
+
+@import '../../node_modules/foundation-sites/dist/css/foundation.min.css';
+@import 'message.scss';
+@import 'buttons.scss';
+@import 'slider.scss';
+@import 'app.scss';
+
+
+
